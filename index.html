@@ -25,7 +25,7 @@
             width: 99%;
             padding-top: 2px;
             line-height: 21px;
-            font-size: 15px;
+            font-size: 14px;
             padding-right: 5px;
             padding-left: 5px;
             margin-top: 3px;
@@ -35,10 +35,14 @@
             display: flex;
             flex-direction: row;
             justify-content: space-around;
+            padding-bottom: 20px;
+        }
+        .part p {
+            text-align: justify;
+            font-size: 13px;
         }
         .part img{
             width: 38%;
-            padding-bottom: 20px;
         }
         .part div{
             line-height: 19px;
@@ -48,7 +52,6 @@
             margin-left: 0px;
             width: 61%;
             margin-top: 3px;
-            padding-bottom: 20px;
         }
         .part_three div{
             margin-left: 0px;
@@ -63,22 +66,16 @@
             padding-right: 5px;
             padding-left: 10px;
         }
-        .part_four{
-            padding-top: 20px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
         .part_four strong{
             padding-left: 50px;
         }
         .part_four img{
-            width: 32%;
-            height: 90%;
+            width: 100%;
         }
         .part_six {
             display: flex;
             flex-direction: row;
+            padding-top: 20px;
         }
         .picture_2 img{
             width: 100%;
@@ -126,6 +123,23 @@
                 width: 100%;
             }
         }
+        .photo_oxy{
+            display: flex;
+            flex-direction: column;
+        }
+        .part_four{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .photo_oxy p{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0;
+        }
+        .part_photos{
+            display: flex;
+            flex-direction: row;
+        }
     </style>
 </head>
 
@@ -167,16 +181,11 @@
             <p>À qui s’adresse cet oxymètre</p>
             <strong>Sportifs :</strong>
             Pour toutes personnes pratiquant une activité physique active, l’oxymètre permet de mesurer l'évolution de vos performances en termes de taux d'oxygène dans le sang (ce qui vous permet d’observer une amélioration de votre santé via votre pratique physique).
-            <br> Essentiel pour les personnes reprenant le sport et pouvant présenter des facteurs à risque (surpoids, tabagisme). 
-            <br> Fait partie de l’équipement essentiel des sportifs en altitude pour évaluer leur capacité respiratoire durant leur activité. <br> <br> 
-
+           <br>
+           <br> 
             <strong>Toute personne souffrant de problèmes de santé ou jugée à risque :</strong>
             Le taux de saturation en oxygène (SpO2) est un indicateur de santé aussi essentiel que la prise de température corporelle ou la fréquence cardiaque.  Il permet de rendre compte de l’état de santé du système respiratoire du patient.
-            <br> Ainsi pour toute personne souffrant de problèmes de santé ou jugée à risque et présentant des symptômes tels qu’une douleur dans la poitrine ou un essoufflement anormal, une prise rapide du Sp02 par le biais d’un oxymètre permet d’éviter des complications si le patient observe que son taux d’oxygène dans le sang est anormalement bas (en dessous de 94 %). <br> <br>
-
-            <strong>Personnes atteintes de Covid-19 :</strong>
-            Permet d’identifier et de prévenir précocement des aggravations de santé pour les patients atteints du Covid19. L’OMS, depuis Mars 2020, recommande aux gouvernements des pays touchés par le virus l’utilisation des oxymètres pour le traitement des patients. <br> 
-
+            <br> <br>
             <strong>Personnes diabétiques ou en surpoids</strong> <br>
             <strong>Toute personne à risque respiratoire</strong> <br>
             <strong>Cardiaques</strong>
@@ -184,10 +193,19 @@
     </section>
     <section class="part_four">
         <strong> 3 modèles disponibles :</strong>
-        <div>
-            <img src="photo_06.jpg" alt=""/>
-            <img src="photo_07.jpg" alt=""/>
-            <img src="photo_08.jpg" alt=""/>
+        <div class="part_photos">
+            <div class="photo_oxy"> 
+                <img src="photo_06.jpg" alt=""/> 
+                <p>Vital</p> 
+            </div>
+            <div class="photo_oxy"> 
+                <img src="photo_07.jpg" alt=""/>
+                <p>Air Vital</p> 
+            </div>
+            <div class="photo_oxy"> 
+                <img src="photo_08.jpg" alt=""/>
+                <p>Vital plus</p> 
+            </div>
         </div>
     </section>
     <section class="part_five">
