@@ -38,7 +38,7 @@
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            padding-bottom: 20px;
+            padding-bottom: 35px;
         }
         .part p {
             text-align: justify;
@@ -66,7 +66,7 @@
         }
         .part_five{
             width: 99%;
-            padding-top: 2px;
+            padding-top: 35px;
             line-height: 21px;
             font-size: 13.6px;
             padding-right: 5px;
@@ -77,6 +77,7 @@
         .part_four {
             padding-top: 50px;
             padding-bottom: 40px;
+            display: none;
         }
         .part_four strong{
             padding-left: 50px;
@@ -134,6 +135,10 @@
             padding-bottom: 30px;
             padding-top: 20px;
         }
+        .first_part img{
+            padding-top: 30px;
+            width: 30%;
+        }
         @media screen and (max-width: 878px)
         {
             .banniere_end {
@@ -177,10 +182,16 @@
                 width: 100%;
                 padding-bottom: 30px;
             }
+            .first_part img{
+                width: 60%;
+            }
         }
         @media screen and (max-width: 500px)
         {
             .part_four img{
+                width: 100%;
+            }
+            .first_part img{
                 width: 100%;
             }
         }
@@ -202,10 +213,16 @@
             flex-direction: row;
             padding-top: 10px;
         }
+ 
     </style>
 </head>
 
 <body>
+    <section class="part first_part">
+        <img src="photo_13.jpeg" alt="photo de l'oxymètre en vente"/>
+        <img src="photo_18.jpg" alt="photo de l'oxymètre en vente"/>
+        <img src="photo_20.png" alt="photo de l'oxymètre en vente"/>
+    </section>
     <section class="part part_two">
         <img src="photo_03.jpg" alt=""/>
         <div>
